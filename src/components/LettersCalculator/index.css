@@ -1,0 +1,43 @@
+/* Write your code here. */
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.instruction {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.input {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #e4e7eb;
+}
+.count {
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 2%;
+  margin-top: 3%;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  color: #219a6f;
+  font-weight: bolder;
+}
+.image {
+  width: 30%;
+}
